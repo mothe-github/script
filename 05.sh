@@ -8,7 +8,7 @@ out() {
     fi
 }
 
-Log = "/tmp/logs"
+Log=/tmp/out.log
 
 echo "print $(df -h)" &>>$Log
 out $?
