@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "manikanta"
+echo "manikanta\nbtch"
