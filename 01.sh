@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "manikanta\n\tbtch"
+echo -e "\e[31m manikanta\n\tbtch \e[0m"
