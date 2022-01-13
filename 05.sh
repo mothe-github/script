@@ -12,7 +12,7 @@ Log=/tmp/out1.log
 
 echo "print $(df -h)" &>$Log
 out $?
-echo "print $(df -dffgh)"
+df -sfsf &>Log
 out $?
-echo "print $(df -h)" 
+echo "print $(df -h)" &>$Log
 out $?
