@@ -3,8 +3,8 @@ out() {
 
     if [ $1 -eq 0 ] ; then
         echo "Success"
-    else
-        echo "Failure"
+    elif []
+        echo "Failure" 
     fi
 }
 
