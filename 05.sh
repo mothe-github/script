@@ -10,9 +10,9 @@ out() {
 
 Log=/tmp/out1.log
 
-echo "print $(df -h)" &>>$Log
+echo "print $(df -h)" &>$Log
 out $?
-echo "print $(df -dffgh)" &>>$Log
+echo "print $(df -dffgh)"
 out $?
-echo "print $(df -h)" &>>$Log
+echo "print $(df -h)" 
 out $?
