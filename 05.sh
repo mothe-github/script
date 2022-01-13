@@ -5,6 +5,7 @@ out() {
         echo "Success"
     else
         echo "Failure"
+    fi
 }
 
 Log = /tmp/logs
