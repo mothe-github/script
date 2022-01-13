@@ -10,9 +10,8 @@ out() {
 
 Log=/tmp/out1.log
 
-sudo yum install httpd -y >&Log
+yum install httpd -y >&Log
 out $?
-sudo cd ../chwon root:root project.sh >&Log
-sudo echo 'ProxyPass "/student" "http://APP-SERVER-IPADDRESS:8080/student"
+echo 'ProxyPass "/student" "http://APP-SERVER-IPADDRESS:8080/student"
 ProxyPassReverse "/student"  "http://APP-SERVER-IPADDRESS:8080/student"' > /etc/httpd/conf.d/proxy.conf >&Log
 out $?
