@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\e[41;35m manikanta\n\cbtch \e[0m"
+echo -e "\e[32m manikanta\n\cbtch \e[0m"
