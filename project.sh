@@ -3,7 +3,7 @@ out() {
 
     if [ $1 -eq 0 ] ; then
         echo "Success"
-    elif []
+    else
         echo "Failure" 
     fi
 }
